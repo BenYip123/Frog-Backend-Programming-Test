@@ -1,0 +1,382 @@
+21:50:13.215 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+21:50:13.222 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+21:50:13.247 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.frog.frogbackendprogrammingtest.controller.BookControllerTest] from class [org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper]
+21:50:13.255 [main] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.frog.frogbackendprogrammingtest.controller.BookControllerTest], using SpringBootContextLoader
+21:50:13.258 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.frog.frogbackendprogrammingtest.controller.BookControllerTest]: class path resource [com/frog/frogbackendprogrammingtest/controller/BookControllerTest-context.xml] does not exist
+21:50:13.259 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.frog.frogbackendprogrammingtest.controller.BookControllerTest]: class path resource [com/frog/frogbackendprogrammingtest/controller/BookControllerTestContext.groovy] does not exist
+21:50:13.259 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.frog.frogbackendprogrammingtest.controller.BookControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+21:50:13.260 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.frog.frogbackendprogrammingtest.controller.BookControllerTest]: BookControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:50:13.316 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.frog.frogbackendprogrammingtest.controller.BookControllerTest]
+21:50:13.362 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\Programming\eclipse-workspace\frog-backend-programming-test\target\classes\com\frog\frogbackendprogrammingtest\FrogBackendProgrammingTestApplication.class]
+21:50:13.363 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.frog.frogbackendprogrammingtest.FrogBackendProgrammingTestApplication for test class com.frog.frogbackendprogrammingtest.controller.BookControllerTest
+21:50:13.365 [main] DEBUG org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - @TestExecutionListeners is not present for class [com.frog.frogbackendprogrammingtest.controller.BookControllerTest]: using defaults.
+21:50:13.365 [main] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+21:50:13.378 [main] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@518caac3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@68034211, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4f74980d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c372fe6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@58594a11, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2a3888c1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4167d97b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@14fa86ae, org.springframework.test.context.event.EventPublishingTestExecutionListener@6e15fe2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@68f1b17f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1722011b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@57ad2aa7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5b3f61ff, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3e2059ae, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@398dada8]
+21:50:13.381 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@1d483de4 testClass = BookControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4032d386 testClass = BookControllerTest, locations = '{}', classes = '{class com.frog.frogbackendprogrammingtest.FrogBackendProgrammingTestApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@28d18df5 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration, org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@449a4f23, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@78e4deb0, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@2b1ffc36, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@1c5920df, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@15043a2f, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@dbf1124a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@3cdf5c0d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@536f2a7e, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.7)
+
+2023-01-09 21:50:13.648  INFO 9940 --- [           main] c.f.f.controller.BookControllerTest      : Starting BookControllerTest using Java 13.0.1 on DESKTOP-ROVJVHG with PID 9940 (started by Ben in D:\Programming\eclipse-workspace\frog-backend-programming-test)
+2023-01-09 21:50:13.649  INFO 9940 --- [           main] c.f.f.controller.BookControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2023-01-09 21:50:15.018  INFO 9940 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-01-09 21:50:15.018  INFO 9940 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-01-09 21:50:15.019  INFO 9940 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-01-09 21:50:15.045  INFO 9940 --- [           main] c.f.f.controller.BookControllerTest      : Started BookControllerTest in 1.634 seconds (JVM running for 2.325)
+2023-01-09 21:50:15.067  INFO 9940 --- [           main] c.f.f.controller.BookControllerTest      : Test to return a book by ISBN and check all attributes are correct
+2023-01-09 21:50:15.144  INFO 9940 --- [           main] c.f.f.controller.BookController          : getBookByIsbn with 9781847624826
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /api/books
+       Parameters = {isbn=[9781847624826]}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.frog.frogbackendprogrammingtest.controller.BookController
+           Method = com.frog.frogbackendprogrammingtest.controller.BookController#getBookByIsbn(String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"id":0,"isbn":"9781847624826","title":"Pride and Prejudice","author":"Jane Austen","published_year":2010,"page_count":285,"retail_price":4.5,"description":"Pride and Prejudice is a novel by Jane Austen that satirizes issues of marriage and social class."}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-01-09 21:50:15.226  INFO 9940 --- [           main] c.f.f.controller.BookControllerTest      : Tests to check if a book is created
+2023-01-09 21:50:15.247  INFO 9940 --- [           main] c.f.f.controller.BookController          : createBook with ID = 0, ISBN = 9781847624826, title = Pride and Prejudice, author = Jane Austen, published year = 2010, page count = 285, retail price = 4.5, description = Pride and Prejudice is a novel by Jane Austen that satirizes issues of marriage and social class.
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /api/books
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"256"]
+             Body = {"id":0,"isbn":"9781847624826","title":"Pride and Prejudice","author":"Jane Austen","published_year":2010,"page_count":285,"retail_price":4.5,"description":"Pride and Prejudice is a novel by Jane Austen that satirizes issues of marriage and social class."}
+    Session Attrs = {}
+
+Handler:
+             Type = com.frog.frogbackendprogrammingtest.controller.BookController
+           Method = com.frog.frogbackendprogrammingtest.controller.BookController#createBook(Book)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 201
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"id":0,"isbn":"9781847624826","title":"Pride and Prejudice","author":"Jane Austen","published_year":2010,"page_count":285,"retail_price":4.5,"description":"Pride and Prejudice is a novel by Jane Austen that satirizes issues of marriage and social class."}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-01-09 21:50:15.254  INFO 9940 --- [           main] c.f.f.controller.BookControllerTest      : Tests a specific ID does not exist in the database and correctly identifies the status as not found
+2023-01-09 21:50:15.256  INFO 9940 --- [           main] c.f.f.controller.BookController          : getBookById with 1
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /api/books
+       Parameters = {id=[1]}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.frog.frogbackendprogrammingtest.controller.BookController
+           Method = com.frog.frogbackendprogrammingtest.controller.BookController#getBookById(long)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 404
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-01-09 21:50:15.262  INFO 9940 --- [           main] c.f.f.controller.BookControllerTest      : Tests update on a book that already exists and check all attributes are correct
+2023-01-09 21:50:15.266  INFO 9940 --- [           main] c.f.f.controller.BookController          : updateBook with ID = 0, ISBN = 9780141439587, title = Emma, author = Jane Austen, published year = 2003, page count = 512, retail price = 5.9900000000000002131628207280300557613372802734375, description = Clever, rich and beautiful, she sees no need for marriage, but loves interfering in the romantic lives of others, until her matchmaking plans unravel, with consequences that she never expected.
+
+MockHttpServletRequest:
+      HTTP Method = PUT
+      Request URI = /api/books/1
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"385"]
+             Body = {"id":0,"isbn":"9780141439587","title":"Emma","author":"Jane Austen","published_year":2003,"page_count":512,"retail_price":5.9900000000000002131628207280300557613372802734375,"description":"Clever, rich and beautiful, she sees no need for marriage, but loves interfering in the romantic lives of others, until her matchmaking plans unravel, with consequences that she never expected."}
+    Session Attrs = {}
+
+Handler:
+             Type = com.frog.frogbackendprogrammingtest.controller.BookController
+           Method = com.frog.frogbackendprogrammingtest.controller.BookController#updateBook(long, Book)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"id":0,"isbn":"9780141439587","title":"Emma","author":"Jane Austen","published_year":2003,"page_count":512,"retail_price":5.9900000000000002131628207280300557613372802734375,"description":"Clever, rich and beautiful, she sees no need for marriage, but loves interfering in the romantic lives of others, until her matchmaking plans unravel, with consequences that she never expected."}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-01-09 21:50:15.273  INFO 9940 --- [           main] c.f.f.controller.BookControllerTest      : Check DELETE works as intended for all books
+2023-01-09 21:50:15.274  INFO 9940 --- [           main] c.f.f.controller.BookController          : deleteAllBooks
+
+MockHttpServletRequest:
+      HTTP Method = DELETE
+      Request URI = /api/books
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.frog.frogbackendprogrammingtest.controller.BookController
+           Method = com.frog.frogbackendprogrammingtest.controller.BookController#deleteAllBooks()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 204
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-01-09 21:50:15.282  INFO 9940 --- [           main] c.f.f.controller.BookControllerTest      : Checks if all books are returned
+2023-01-09 21:50:15.283  INFO 9940 --- [           main] c.f.f.controller.BookController          : getAllBooks with null
+2023-01-09 21:50:15.284  INFO 9940 --- [           main] c.f.f.controller.BookController          : find all books
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /api/books
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.frog.frogbackendprogrammingtest.controller.BookController
+           Method = com.frog.frogbackendprogrammingtest.controller.BookController#getAllBooks(String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = [{"id":0,"isbn":"9781847624826","title":"Pride and Prejudice","author":"Jane Austen","published_year":2010,"page_count":285,"retail_price":4.5,"description":"Pride and Prejudice is a novel by Jane Austen that satirizes issues of marriage and social class."},{"id":0,"isbn":"9780099419785","title":"To Kill A Mockingbird","author":"Harper Lee","published_year":1989,"page_count":320,"retail_price":8.9900000000000002131628207280300557613372802734375,"description":"To Kill a Mockingbird views the brutality of racism in the Deep South through the eyes of the big-hearted child narrator, Scout."},{"id":0,"isbn":"9780141187761","title":"Nineteen Eighty-Four","author":"George Orwell","published_year":2004,"page_count":384,"retail_price":8.9900000000000002131628207280300557613372802734375,"description":"Who controls the past controls the future: who controls the present controls the past."}]
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-01-09 21:50:15.293  INFO 9940 --- [           main] c.f.f.controller.BookControllerTest      : Returns a book from a specific ID and checks all attributes are correct
+2023-01-09 21:50:15.294  INFO 9940 --- [           main] c.f.f.controller.BookController          : getBookById with 1
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /api/books
+       Parameters = {id=[1]}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.frog.frogbackendprogrammingtest.controller.BookController
+           Method = com.frog.frogbackendprogrammingtest.controller.BookController#getBookById(long)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"id":1,"isbn":"9781847624826","title":"Pride and Prejudice","author":"Jane Austen","published_year":2010,"page_count":285,"retail_price":4.5,"description":"Pride and Prejudice is a novel by Jane Austen that satirizes issues of marriage and social class."}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-01-09 21:50:15.300  INFO 9940 --- [           main] c.f.f.controller.BookControllerTest      : Attempt to update a book that does not exist and check the status is 'not found'
+2023-01-09 21:50:15.301  INFO 9940 --- [           main] c.f.f.controller.BookController          : updateBook with ID = 0, ISBN = 9780141439587, title = Emma, author = Jane Austen, published year = 2003, page count = 512, retail price = 5.9900000000000002131628207280300557613372802734375, description = Clever, rich and beautiful, she sees no need for marriage, but loves interfering in the romantic lives of others, until her matchmaking plans unravel, with consequences that she never expected.
+
+MockHttpServletRequest:
+      HTTP Method = PUT
+      Request URI = /api/books/1
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"385"]
+             Body = {"id":0,"isbn":"9780141439587","title":"Emma","author":"Jane Austen","published_year":2003,"page_count":512,"retail_price":5.9900000000000002131628207280300557613372802734375,"description":"Clever, rich and beautiful, she sees no need for marriage, but loves interfering in the romantic lives of others, until her matchmaking plans unravel, with consequences that she never expected."}
+    Session Attrs = {}
+
+Handler:
+             Type = com.frog.frogbackendprogrammingtest.controller.BookController
+           Method = com.frog.frogbackendprogrammingtest.controller.BookController#updateBook(long, Book)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 404
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-01-09 21:50:15.305  INFO 9940 --- [           main] c.f.f.controller.BookControllerTest      : Check DELETE works as intended for a specific id
+2023-01-09 21:50:15.306  INFO 9940 --- [           main] c.f.f.controller.BookController          : deleteBooks with 1
+
+MockHttpServletRequest:
+      HTTP Method = DELETE
+      Request URI = /api/books/1
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.frog.frogbackendprogrammingtest.controller.BookController
+           Method = com.frog.frogbackendprogrammingtest.controller.BookController#deleteBooks(long)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 204
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
